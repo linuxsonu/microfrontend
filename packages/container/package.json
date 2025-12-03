@@ -1,8 +1,10 @@
+
 {
-  "name": "marketing",
+  "name": "container",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve --config config/webpack.dev.js"
+    "start": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -27,4 +29,3 @@
     "webpack-merge": "^5.2.0"
   }
 }
-
